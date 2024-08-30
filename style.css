@@ -1,0 +1,30 @@
+img{
+    width: 40px
+  }
+  table{
+    width: 100%;
+      border-collapse: flex;
+      margin: 20px 0;
+      font-size: 18px;
+      text-align: center;
+  }
+  th{
+    font-family: arial;
+    background-color: #A300FF;
+      color: #fffffa;
+      text-align: left;
+      font-weight: bold;
+    text-align: center;
+  }
+  tbody tr{
+    border-bottom: 1px solid #dddddd;
+  }
+  tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+  } 
+   td, th {
+      padding: 12px 15px;
+    }
+  td {
+    border-radius:7px;
+  }
